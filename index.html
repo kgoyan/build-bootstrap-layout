@@ -11,7 +11,76 @@
     <title>Bootstrap Layout E01</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Cat Pics</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="bg-dark text-light p-2">
+      <div class="container">
+        <h2 class="text-uppercase">Header Banner Area</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum modi sequi, optio impedit omnis expedita, officia id eum facilis explicabo repellendus dolorem laboriosam voluptates asperiores commodi, recusandae earum fuga quisquam.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class=" col-lg-6">
+            <form class="bg-primary p-2 text-light ">
+              <h2>Sign In</h2>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" id="password">
+              </div>
+              <div class="form-group">
+                <input class="form-check-input" type="checkbox" id="check" name="saved-pw">
+                <label for="check">Save your password?</label>
+              </div>
+              <button class="btn btn-light" type="submit">Log In</button>
+            </form>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="m-1">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa quidem delectus voluptatem! Reiciendis, sapiente similique quas mollitia possimus labore et eius quisquam omnis earum molestias dicta accusantium excepturi nobis!</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="m-1">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa quidem delectus voluptatem! Reiciendis, sapiente similique quas mollitia possimus labore et eius quisquam omnis earum molestias dicta accusantium excepturi nobis!</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
